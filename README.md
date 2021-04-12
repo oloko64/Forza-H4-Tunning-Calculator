@@ -9,7 +9,7 @@ Install Python3.6+
 And start the program with:
 
 Windows:
-"python FH4_Calculator.py" or 
+"python FH4_Calculator.py"
 
 Linux:
 "python3 FH4_Calculator.py"

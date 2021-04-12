@@ -1,3 +1,5 @@
+# Code made by OLoKo64
+
 import os
 
 # Copied code ready to use for clear the console in Unix and Windows machines

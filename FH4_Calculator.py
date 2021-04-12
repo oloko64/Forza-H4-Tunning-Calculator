@@ -34,36 +34,6 @@ def calculos():
 
 
 # ======================
-# Start functions to print the results
-# ======================
-def damping(valor):
-    print(f'>>>> Damping Results <<<<')
-    print('')
-    print(f'Rebound Stiffness Front ==> {valor[0]}')
-    print(f'Rebound Stiffness Rear ==> {valor[1]}')
-    print('')
-    print(f'Bump Stiffness Front ==> {round((valor[0] * 60) / 100, 2)}') # Use 60% of the above values
-    print(f'Bump Stiffness Rear ==> {round((valor[1] * 60) / 100, 2)}')  # Use 60% of the above values
-
-
-def springs(valor):
-    print(f'>>>> Springs Results <<<<')
-    print('')
-    print(f'Springs Front ==> {valor[0]}')
-    print(f'Springs Rear ==> {valor[1]}')
-
-
-def anti_roll(valor):
-    print(f'>>>> Antirolls Bars Results <<<<')
-    print('')
-    print(f'Antiroll Bars Front ==> {valor[0]}')
-    print(f'Antiroll Bars Rear ==> {valor[1]}')
-# ======================
-# End functions to print the results
-# ======================
-
-
-# ======================
 # Start the inputs
 # ======================
 def inputs():
@@ -110,6 +80,37 @@ def run_antiroll():
 # ======================
 # End the inputs
 # ======================
+
+
+# ======================
+# Start functions to print the results
+# ======================
+def damping(valor):
+    print(f'>>>> Damping Results <<<<')
+    print('')
+    print(f'Rebound Stiffness Front ==> {valor[0]}')
+    print(f'Rebound Stiffness Rear ==> {valor[1]}')
+    print('')
+    print(f'Bump Stiffness Front ==> {round((valor[0] * 60) / 100, 2)}') # Use 60% of the above values
+    print(f'Bump Stiffness Rear ==> {round((valor[1] * 60) / 100, 2)}')  # Use 60% of the above values
+
+
+def springs(valor):
+    print(f'>>>> Springs Results <<<<')
+    print('')
+    print(f'Springs Front ==> {valor[0]}')
+    print(f'Springs Rear ==> {valor[1]}')
+
+
+def anti_roll(valor):
+    print(f'>>>> Antirolls Bars Results <<<<')
+    print('')
+    print(f'Antiroll Bars Front ==> {valor[0]}')
+    print(f'Antiroll Bars Rear ==> {valor[1]}')
+# ======================
+# End functions to print the results
+# ======================
+
 
 # Call all of the functions and treat errors if the user use invalid parameters
 def run():

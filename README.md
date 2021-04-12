@@ -24,17 +24,14 @@ Install Python3.6+
 2. Insert the percentage of weight distribution.
 3. Insert the maximum and minimum values of which bar.
 
+If you want to close the program use Ctrl+C to exit.
+
 # Formula used
 (max - min) * W% + min = result
 
 1. max => Max value of the tunning bar
 2. min => Min value of the tunning bar
 3. W%  => Weight distribution of the car
-
-
-
-If you want to close the program use Ctrl+C to exit.
-
 
 # To do
 The code needs a top to botton rewrite for performance and usability reasons as i write it on my launch time without planning. All the calculations are correctly working.

@@ -34,6 +34,7 @@ def run():
         print(f'Rebound Front: {carro.bumpFront()}')
         print(f'Rebound Rear: {carro.bumpRear()}')
         print('\n')
+        input('Press ENTER to exit...')
     except(ValueError):
         clearConsole()
         print('Only numbers are valid...\n')

@@ -4,11 +4,6 @@ After some time doing the calculations by hand i decided to create this script, 
 
 The results of this calculator are NOT 100% precise, driving preference, style and car by car variance are not measured. This is a base for you to start at, taking account weight distribution of the car.
 
-Formula used by HokiHoshi.
-
-For more information on how this formula works this is the video in question: https://youtu.be/WM7_3NGGUoQ
-
- I have no association with him, its just a script that i created for personal use and decided to share.
 
 # How to use it
 Install Python3.6+ 
@@ -21,20 +16,28 @@ Install Python3.6+
   Linux:
   "python3 FH4_Calculator.py"
 
-2. Insert the percentage of weight distribution.
-3. Insert the maximum and minimum values of which bar.
+2. Insert the weight of the car.
+3. Insert the weight distribution percentage.
+4. Insert how much softiness you want for the suspension:
+
+10  - Very soft.
+
+20  - Normal [Default].
+
+30+ - Very stiff.
+
+5. Insert the maximum value of the Rebound Stiffness bar [Default: 20]
 
 If you want to close the program use Ctrl+C to exit.
 
+
 # Formula used
-(max - min) * W% + min = result
+Suspension = (weight * chosed_stiffness) * weight_distribution
 
-1. max => Max value of the tunning bar
-2. min => Min value of the tunning bar
-3. W%  => Weight distribution of the car
+Rebound Stiffness = max_value_bar * weight_distribution
 
-# To do
-The code needs a top to botton rewrite for performance and usability reasons as i write it on my launch time without planning. All the calculations are correctly working.
+Bump Stiffness = Rebound Stiffness * 0.5
+
 
 # Version
-Calculator version 0.01 (Alpha).
+Calculator version 0.10 (Alpha).

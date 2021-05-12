@@ -1,4 +1,10 @@
-# Forza-H4-Tunning-Calculator
+# This app is deprecated
+Because this app is CLI based a lot of people are not confortable using it, so I remade this app in a web version, it can be found here: https://github.com/OLoKo64/Multiple-Game-Calculator-Web-App.
+
+This Python version do the exact same operations as the web version, so if you want to use this CLI version, cudos to you :).
+
+
+# Forza H4 Tunning Calculator
 
 After some time doing the calculations by hand i decided to create this script, it is complete CLI based and don't have any requirements.
 
